@@ -1,4 +1,4 @@
-module rockpaperscissors
+module tddpractice
 
 go 1.15
 
