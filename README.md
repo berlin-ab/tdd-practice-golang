@@ -40,4 +40,20 @@ Goals:
 make test-supermarket
 ```
 
+### Lightswitch Controller
 
+Your team is responsible for developing a lightswitch controller for a smarthome. Your boss wants you to integrate with their preferred vendor (Edison), but doesn't want to pay for the license to use the Edison SDK. Your boss still wants your code to work ASAP.
+
+After creating an initial implementation, your team has realized that it is hard to test. 
+
+Through writing software, answer these questions:
+
+* How can we test the logic of the lightswitch controller without paying for the edison lightbulb license?
+* How should we organize the packages of our software?
+
+Introducing the *Dependency Inversion Principle:*
+
+https://en.wikipedia.org/wiki/Dependency_inversion_principle
+
+- High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g., interfaces).
+- Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.
